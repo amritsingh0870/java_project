@@ -7,8 +7,8 @@ pipeline {
     stages {
         stage("Build") {
             steps {
-                bat "git clone https://github.com/amritsingh0870/java_project.git"
-                bat "cd java_project"
+                //bat "git clone https://github.com/amritsingh0870/java_project.git"
+                //bat "cd java_project"
                 bat "java App"
             }
         }
